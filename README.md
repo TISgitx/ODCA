@@ -87,5 +87,4 @@ Feel free to discuss or contribute via issues or pull requests.
 
 ---
 
-*Keep it clean and curious!*  
-*Держи всё чистым и с любопытством!*
+*Keep it clean and curious!*

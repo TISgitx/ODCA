@@ -1,6 +1,6 @@
 # 🛠 ODCA Audit Style Guide / Гайд по стилю RSA-аудитов ODCA
 
-Версия / Version: 1.0.1  
+Версия / Version: 1.0.2  
 Обновлено / Last updated: 2025-07-13
 
 
@@ -111,6 +111,7 @@ List additional firmware versions or devices for future audits.
 - Location: `/audits/Device Model`
 Где располагается: `/audits/Device Model`
 - Example: `/audits/iPod Nano 7`
+Пример: `/audits/iPod Nano 7`
 - File names: `device_model_year_version.md`
 Структура названия: `устройство_модель_годвыпуска_версия.md`
 - Example: `ipod_nano_7_2012_1.0.4.md`

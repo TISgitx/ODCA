@@ -43,7 +43,7 @@ Efficient prime generation and `gmpy2.is_prime` for primality tests.
 | 4549  | Composite    | No      |
 
 > ⚠️ These partial factorizations imply:  
-> N = 31*q1 or N = 4549*q2 or ... etc., where q1 and q2 are composite.  
+> N = 31 x q1 or N = 4549 x q2 or ... etc., where q1 and q2 are composite.  
 > Further factoring of q1 or q2 could enable calculation of the private key via standard RSA key recovery methods.  
 > Thus, despite compositeness, this indicates a potential cryptographic weakness.
 
@@ -110,7 +110,7 @@ Use of this information is at your own risk.
 | 4549  | составное   | Нет      |
 
 > ⚠️ Эти частичные факторизации означают:  
-> N = 31*q1 или N = 4549*q2 или ... и т. д., где q1 и q2 — составные числа.  
+> N = 31 x q1 или N = 4549 x q2 или ... и т. д., где q1 и q2 — составные числа.  
 > Дальнейшая факторизация q1 или q2 может позволить вычислить приватный ключ с помощью стандартных формул RSA.  
 > Таким образом, несмотря на составность, это указывает на потенциальную криптографическую уязвимость.
 

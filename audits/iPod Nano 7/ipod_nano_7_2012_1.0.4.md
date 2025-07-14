@@ -6,7 +6,7 @@
 
 ### 🔐 RSA Modulus Factorization Analysis Report
 
-**Last updated:** 13-07-2025 20:18:32
+**Last updated:** 14-07-2025 08:13:57
 
 #### Current target
 
@@ -16,7 +16,7 @@
 Extracted from the `rsrc` section of the **iPod nano 7 (2012) firmware v1.0.4**.  
 Used for firmware resource signature validation.
 
-- **Bit length:** ~1024 bits  
+- **Bit length:** ~1692 bits  
 - **Type:** Presumably classic or multi-prime RSA  
 - **Status:** Public and unchanging (Apple ended support)
 
@@ -46,6 +46,7 @@ Efficient prime generation and `gmpy2.is_prime` for primality tests.
 > N = 31 x q1 or N = 4549 x q2 or ... etc., where q1 and q2 are composite.  
 > Further factoring of q1 or q2 could enable calculation of the private key via standard RSA key recovery methods.  
 > Thus, despite compositeness, this indicates a potential cryptographic weakness.
+> However, recent calculations have shown that this cannot be used since the number either increases or does not change at all in the numerical range for each of these divisors when dividing
 
 #### My planned further work
 
@@ -73,7 +74,7 @@ Use of this information is at your own risk.
 
 ### 🔐 Отчёт по факторизации RSA-модуля
 
-**Дата обновления:** 13-07-2025 20:18:32
+**Дата обновления:** 14-07-2025 08:13:57
 
 #### Текущий объект исследования
 
@@ -113,6 +114,7 @@ Use of this information is at your own risk.
 > N = 31 x q1 или N = 4549 x q2 или ... и т. д., где q1 и q2 — составные числа.  
 > Дальнейшая факторизация q1 или q2 может позволить вычислить приватный ключ с помощью стандартных формул RSA.  
 > Таким образом, несмотря на составность, это указывает на потенциальную криптографическую уязвимость.
+> Однако при недавних расчётах выяснилось что это нельзя использовать так как число при делении либо увеличивается либо вообще не меняется в числовом диапазоне на каждый из этих делителей
 
 #### Планируемая мною дальнейшая работа
 

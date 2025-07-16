@@ -2,6 +2,8 @@
 
 ---
 
+### This research may turn out to be false, because recently some details have been revealed, all the information below may be changed in the future when more or less correct research is ready
+
 ## English Version
 
 ### 🔐 RSA Modulus Factorization Analysis Report
@@ -69,6 +71,8 @@ The author does **not endorse or encourage** unauthorized modification or exploi
 Use of this information is at your own risk.
 
 ---
+
+### Это исследование может оказаться ложным, так как недавно были раскрыты некоторые детали, вся информация ниже может быть изменена в будущем, когда будут готовы более или менее корректные исследования.
 
 ## Русская версия
 
